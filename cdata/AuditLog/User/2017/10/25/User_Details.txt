@@ -1,0 +1,9 @@
+25-10-2017,15:57:59,admin,1,Create,File,3,File has been completed.
+25-10-2017,16:15:05,ajay,40,Complete,Prepping,4,File has been completed.
+25-10-2017,16:33:18,qc,42,Complete,Prepping QC,4,File has been completed.
+25-10-2017,16:35:56,admin,1,Reallocate,FilePage,6,File has been Reallocated.
+25-10-2017,16:45:25,ajay,40,Complete,DateCoding,6,File has been completed.
+25-10-2017,17:45:15,ajay,40,Complete,Prepping,4,File has been completed.
+25-10-2017,17:52:49,qc,42,Complete,Prepping QC,4,File has been completed.
+25-10-2017,18:09:36,ajay,40,Complete,DateCoding,6,File has been completed.
+25-10-2017,18:11:06,qc,42,Complete,Datecoding QC,6,File has been completed.

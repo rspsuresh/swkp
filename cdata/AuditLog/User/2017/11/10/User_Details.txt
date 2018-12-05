@@ -1,0 +1,24 @@
+10-11-2017,10:59:38,admin,1,Add,userdetails,72,ashokhas been added.
+10-11-2017,11:12:55,admin,1,Add,userdetails,73,psureshhas been added.
+10-11-2017,11:25:54,admin,1,Add,userdetails,74,rsureshhas been added.
+10-11-2017,11:42:32,admin,1,Update,userdetails,72,ashokhas been updated.
+10-11-2017,11:43:16,tl,72,Create,File,12,File has been completed.
+10-11-2017,11:58:29,ps,73,Complete,Prepping,65,File has been completed.
+10-11-2017,12:18:41,admin,1,Create,File,12,File has been completed.
+10-11-2017,12:20:31,admin,1,Reallocate,FilePage,69,File has been Reallocated.
+10-11-2017,12:27:47,ps,73,Create,FileIndex,41,File Index has been created.
+10-11-2017,12:27:47,ps,73,Update,FileIndex,,File Update has been created.
+10-11-2017,12:27:51,ps,73,Complete,Prepping,69,File has been completed.
+10-11-2017,14:22:30,rs,74,Complete,Prepping QC,69,File has been completed.
+10-11-2017,14:24:07,admin,1,Reallocate,FilePage,70,File has been Reallocated.
+10-11-2017,14:58:12,admin,1,Create,File,13,File has been completed.
+10-11-2017,15:00:16,admin,1,Create,File,14,File has been completed.
+10-11-2017,15:43:06,ps,73,Complete,DateCoding,70,File has been completed.
+10-11-2017,16:52:52,rs,74,Complete,Datecoding QC,70,File has been completed.
+10-11-2017,17:36:52,tl,72,Create,File,15,File has been completed.
+10-11-2017,18:20:51,admin,1,Create,File,16,File has been completed.
+10-11-2017,18:28:49,admin,1,Create,File,17,File has been completed.
+10-11-2017,18:29:25,admin,1,Reallocate,FilePage,82,File has been Reallocated.
+10-11-2017,18:29:36,admin,1,Reallocate,FilePage,83,File has been Reallocated.
+10-11-2017,18:34:20,admin,1,Reallocate,FilePage,84,File has been Reallocated.
+10-11-2017,18:38:00,admin,1,Reallocate,FilePage,85,File has been Reallocated.

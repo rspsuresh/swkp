@@ -1,0 +1,19 @@
+/* 
+    Document   : newCascadeStyleSheet
+    Created on : Apr 6, 2016, 3:49:03 PM
+    Author     : Thiyan
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* Back up style main.css - line - 7777 */
+.selectize-dropdown {
+  /*z-index: 1210;*/  
+  z-index: 121000;
+}
+/* Back up style main.css - line - 1365 */
+.uk-datepicker {
+  /*z-index: 1094;*/  
+  z-index: 1400;
+}
+

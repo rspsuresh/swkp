@@ -1,0 +1,170 @@
+/**
+ * CSS styles for CLinkPager.
+ *
+ * @author Qiang Xue <qiang.xue@gmail.com>
+ * @link http://www.yiiframework.com/
+ * @copyright 2008-2010 Yii Software LLC
+ * @license http://www.yiiframework.com/license/
+ * @since 1.0
+ */
+
+ul.yiiPager
+{
+	font-size:11px;
+	border:0;
+	margin:0;
+	padding:0;
+	line-height:100%;
+	display:inline;
+}
+
+ul.yiiPager li
+{
+	display:inline;
+}
+
+ul.yiiPager a:link,
+ul.yiiPager a:visited
+{
+	border:solid 1px #D3DBEF;
+	color:#0e509e;
+	padding:1px 6px;
+	text-decoration:none;
+}
+
+ul.yiiPager .page a
+{
+	font-weight:normal;
+}
+
+ul.yiiPager a:hover
+{
+	border:solid 1px #0e509e;
+}
+
+ul.yiiPager .selected a
+{
+	background:#2e6ab1;
+	color:#FFFFFF;
+	font-weight:bold;
+}
+
+ul.yiiPager .hidden a
+{
+	border:solid 1px #DEDEDE;
+	color:#888888;
+}
+
+/**
+ * Hide first and last buttons by default.
+ */
+ul.yiiPager .first,
+ul.yiiPager .last
+{
+	display:none;
+}
+
+.grid-view .pager{
+    margin: 0px;
+    display: inline-block;
+    background-color: white;
+    float:right;
+    display: inline-block !important;
+}
+.summary{
+/*    float:left; */
+    display: inline-block !important;
+    /*margin-top:5px;*/
+}
+ul.yiiPager
+{
+    display: inline-block !important;
+    border-radius: 4px;
+    font-size: 14px;
+    border: 0;
+    margin-top:5px;
+    padding: 0;
+    line-height: 100%;
+    display: inline;
+    font-family: Roboto, sans-serif;
+}
+
+ul.yiiPager li
+{
+    display:inline;
+}
+
+ul.yiiPager a:link,
+ul.yiiPager a:visited
+{
+    background: #fafafa;
+    color: #868585;
+}
+
+ul.yiiPager .page a
+{
+    font-weight:normal;
+}
+
+ul.yiiPager a:hover
+{
+    color: #2a6496;
+    background-color: #eaeaea;
+    border-color: #D2D2D2;
+}
+
+ul.yiiPager .selected a,
+ul.yiiPager .selected a:focus
+{
+    z-index: 2;
+    color: #fff;
+    cursor: default;
+    background-color: #C55090;
+    border-color: #C55090;
+}
+ul.yiiPager .selected a:hover{
+     background-color: #C55090;
+}
+ul.yiiPager .hidden a
+{
+    color:#888888;
+}
+ul.yiiPager .hidden a:hover
+{
+    background: #fafafa;
+    border-color:#DEDEDE;
+}
+
+/**
+ * Hide first and last buttons by default.
+ */
+ul.yiiPager .first,
+ul.yiiPager .last
+{
+    display:none;
+}
+
+.pager li > a
+{    
+    position: relative;
+    float: left;
+    padding: 4px 10px !important;
+    margin-left: -1px;
+    line-height: 1.42857143;
+    color: #337ab7;
+    text-decoration: none;
+    background-color: #2196F3;
+}
+
+
+ul.yiiPager .first, ul.yiiPager .last, ul.yiiPager .previous, ul.yiiPager .next {  
+    display: initial !important;  
+    visibility: initial !important;
+}
+.pager .next>a {
+    float:left;
+}
+.yiiPager > .hidden a {
+    cursor:no-drop; 
+    color:#c0c0c0 !important;
+}

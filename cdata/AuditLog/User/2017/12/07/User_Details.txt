@@ -1,0 +1,8 @@
+07-12-2017,14:58:59,admin,1,Create,File,21,File has been completed.
+07-12-2017,15:06:26,admin,1,Create,FileIndex,55,File Index has been created.
+07-12-2017,15:06:32,admin,1,Complete,Prepping,109,File has been completed.
+07-12-2017,15:07:24,admin,1,Complete,Prepping QC,109,File has been completed.
+07-12-2017,16:22:33,admin,1,Create,File,23,File has been completed.
+07-12-2017,16:22:55,admin,1,Create,FileIndex,57,File Index has been created.
+07-12-2017,16:23:00,admin,1,Complete,Prepping,111,File has been completed.
+07-12-2017,18:15:07,admin,1,Complete,DateCoding,110,File has been completed.

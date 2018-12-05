@@ -1,0 +1,31 @@
+09-11-2017,10:11:46,admin,1,Create,File,8,File has been completed.
+09-11-2017,10:13:18,rvw,66,Create,FileIndex,23,File Index has been created.
+09-11-2017,10:13:18,rvw,66,Update,FileIndex,,File Update has been created.
+09-11-2017,10:13:18,rvw,66,Update,FileIndex,,File Update has been created.
+09-11-2017,10:13:21,rvw,66,Complete,Prepping,43,File has been completed.
+09-11-2017,10:15:54,qc1,68,Create,FilePage,24,Moved to Medical.
+09-11-2017,10:15:59,qc1,68,Complete,Prepping QC,43,File has been completed.
+09-11-2017,10:17:27,admin,1,Complete,DateCoding,29,File has been completed.
+09-11-2017,10:17:48,admin,1,Reallocate,FilePage,46,File has been Reallocated.
+09-11-2017,10:32:30,qc1,68,Complete,Prepping QC,43,File has been completed.
+09-11-2017,10:38:53,rvw2,67,Complete,Prepping,47,File has been completed.
+09-11-2017,10:43:18,qc1,68,Complete,Prepping QC,47,File has been completed.
+09-11-2017,10:44:43,admin,1,Complete,Prepping,47,File has been completed.
+09-11-2017,11:44:22,qc1,68,Complete,Prepping QC,47,File has been completed.
+09-11-2017,12:39:03,admin,1,Create,File,9,File has been completed.
+09-11-2017,14:18:50,rvw2,67,Complete,DateCoding,50,File has been completed.
+09-11-2017,14:38:53,admin,1,Create,File,7,File has been completed.
+09-11-2017,15:20:41,rvw,66,Complete,DateCoding,52,File has been completed.
+09-11-2017,15:26:38,admin,1,Create,File,9,File has been completed.
+09-11-2017,15:48:17,admin,1,Create,FileIndex,29,File Index has been created.
+09-11-2017,15:48:21,admin,1,Complete,Prepping,54,File has been completed.
+09-11-2017,15:49:13,admin,1,Create,File,9,File has been completed.
+09-11-2017,15:50:46,admin,1,Create,File,9,File has been completed.
+09-11-2017,16:07:18,admin,1,Complete,DateCoding,59,File has been completed.
+09-11-2017,16:13:00,qc1,68,Complete,Datecoding QC,59,File has been completed.
+09-11-2017,16:21:30,admin,1,Create,File,10,File has been completed.
+09-11-2017,16:35:21,admin,1,Complete,DateCoding,62,File has been completed.
+09-11-2017,17:44:04,admin,1,Add,userdetails,70,qc3has been added.
+09-11-2017,17:45:00,admin,1,Create,File,8,File has been completed.
+09-11-2017,17:45:57,admin,1,Complete,DateCoding,64,File has been completed.
+09-11-2017,18:00:42,admin,1,Add,userdetails,71,rvw3has been added.

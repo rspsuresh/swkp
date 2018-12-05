@@ -1,0 +1,5 @@
+20-10-2017,18:00:40,admin,1,Create,File,2,File has been completed.
+20-10-2017,18:01:22,admin,1,Create,FileIndex,1,File Index has been created.
+20-10-2017,18:01:24,admin,1,Complete,Prepping,1,File has been completed.
+20-10-2017,18:06:42,admin,1,Complete,DateCoding,2,File has been completed.
+20-10-2017,18:07:51,admin,1,Complete,Datecoding QC,2,File has been completed.

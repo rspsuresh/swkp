@@ -1,0 +1,48 @@
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+</head>
+<body style="text-align:center">
+<b>List of partitions</b><br /><br />
+Exported Partitions: 2<br />
+Export date: Oct 7, 2017, 11:38:20 AM<br /><br />
+<table style="text-align:left" border="1" cellpadding="0" cellspacing="0">
+<tr>
+<th>Page Nos</th>
+<th>DOS [MM/DD/YY]</th>
+<th>Provider</th>
+<th>Title [Type of Service]</th>
+<th>Category</th>
+<th>Summary</th>
+<th>LastName</th>
+<th>ReviewerName</th>
+<th>MPN Reviewer Name</th>
+<th>FileNameOrder</th>
+</tr>
+<tr>
+<td>29 ,31 ,33 ,35 ,37 ,39 ,41 ,43 ,45 ,47</td>
+<td>09/26/2017-09/26/2017</td>
+<td>provider1</td>
+<td></td>
+<td>Blank Pages</td>
+<td></td>
+<td>test etst </td>
+<td>admin</td>
+<td></td>
+<td>sadsd - Copy.pdf</td>
+</tr>
+<tr>
+<td>2 ,4 ,6 ,7 ,9 ,10 ,11 ,13 ,14 ,16 ,18 ,20 ,22 ,24 ,26 ,27</td>
+<td>09/26/2017-09/26/2017</td>
+<td>provide3 ,provider1 ,provider2</td>
+<td></td>
+<td>Fax Cover Sheets</td>
+<td></td>
+<td>test etst </td>
+<td>admin</td>
+<td></td>
+<td>sadsd - Copy.pdf</td>
+</tr>
+</table>
+</body>
+</html>

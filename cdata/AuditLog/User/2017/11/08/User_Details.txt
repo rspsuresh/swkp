@@ -1,0 +1,51 @@
+08-11-2017,10:50:24,admin,1,Add,userdetails,67,test reviewer2has been added.
+08-11-2017,10:52:24,admin,1,Add,userdetails,68,Test qchas been added.
+08-11-2017,10:54:38,admin,1,Add,userdetails,69,qc2has been added.
+08-11-2017,10:55:42,admin,1,Update,userdetails,68,qc1has been updated.
+08-11-2017,11:04:40,admin,1,Create,File,5,File has been completed.
+08-11-2017,11:53:33,rvw,66,Create,FileIndex,13,File Index has been created.
+08-11-2017,11:53:33,rvw,66,Update,FileIndex,,File Update has been created.
+08-11-2017,11:53:33,rvw,66,Update,FileIndex,,File Update has been created.
+08-11-2017,11:53:33,rvw,66,Update,FileIndex,,File Update has been created.
+08-11-2017,11:53:34,rvw,66,Update,FileIndex,,File Update has been created.
+08-11-2017,11:53:34,rvw,66,Update,FileIndex,,File Update has been created.
+08-11-2017,11:53:34,rvw,66,Update,FileIndex,,File Update has been created.
+08-11-2017,11:53:34,rvw,66,Update,FileIndex,,File Update has been created.
+08-11-2017,11:53:34,rvw,66,Update,FileIndex,,File Update has been created.
+08-11-2017,11:53:35,rvw,66,Update,FileIndex,,File Update has been created.
+08-11-2017,11:53:43,rvw,66,Complete,Prepping,23,File has been completed.
+08-11-2017,14:41:10,rvw,66,Complete,DateCoding,24,File has been completed.
+08-11-2017,15:48:14,admin,1,Complete,Datecoding QC,24,File has been completed.
+08-11-2017,16:01:19,admin,1,Update,userdetails,65,Test clienthas been updated.
+08-11-2017,16:51:13,admin,1,Create,File,1,File has been completed.
+08-11-2017,16:51:30,admin,1,Reallocate,FilePage,28,File has been Reallocated.
+08-11-2017,16:52:21,admin,1,Reallocate,FilePage,29,File has been Reallocated.
+08-11-2017,17:58:36,admin,1,Create,File,6,File has been completed.
+08-11-2017,18:01:33,admin,1,Reallocate,FilePage,32,File has been Reallocated.
+08-11-2017,18:03:47,rvw2,67,Create,FileIndex,17,File Index has been created.
+08-11-2017,18:03:47,rvw2,67,Update,FileIndex,,File Update has been created.
+08-11-2017,18:03:47,rvw2,67,Update,FileIndex,,File Update has been created.
+08-11-2017,18:03:47,rvw2,67,Update,FileIndex,,File Update has been created.
+08-11-2017,18:03:48,rvw2,67,Update,FileIndex,,File Update has been created.
+08-11-2017,18:03:48,rvw2,67,Update,FileIndex,,File Update has been created.
+08-11-2017,18:03:48,rvw2,67,Update,FileIndex,,File Update has been created.
+08-11-2017,18:03:48,rvw2,67,Update,FileIndex,,File Update has been created.
+08-11-2017,18:03:48,rvw2,67,Update,FileIndex,,File Update has been created.
+08-11-2017,18:03:49,rvw2,67,Update,FileIndex,,File Update has been created.
+08-11-2017,18:04:03,rvw2,67,Update,FileIndex,,File Update has been created.
+08-11-2017,18:04:03,rvw2,67,Update,FileIndex,,File Update has been created.
+08-11-2017,18:04:17,rvw2,67,Complete,Prepping,32,File has been completed.
+08-11-2017,18:10:25,admin,1,Create,File,6,File has been completed.
+08-11-2017,18:10:46,admin,1,Reallocate,FilePage,35,File has been Reallocated.
+08-11-2017,18:11:16,rvw,66,Create,FileIndex,19,File Index has been created.
+08-11-2017,18:11:16,rvw,66,Update,FileIndex,,File Update has been created.
+08-11-2017,18:11:16,rvw,66,Update,FileIndex,,File Update has been created.
+08-11-2017,18:11:16,rvw,66,Update,FileIndex,,File Update has been created.
+08-11-2017,18:11:19,rvw,66,Complete,Prepping,35,File has been completed.
+08-11-2017,18:14:11,admin,1,Create,File,6,File has been completed.
+08-11-2017,18:17:01,admin,1,Create,File,6,File has been completed.
+08-11-2017,18:18:07,admin,1,Reallocate,FilePage,40,File has been Reallocated.
+08-11-2017,18:19:21,rvw2,67,Create,FileIndex,21,File Index has been created.
+08-11-2017,18:19:25,rvw2,67,Complete,Prepping,40,File has been completed.
+08-11-2017,18:25:24,admin,1,Reallocate,FilePage,41,File has been Reallocated.
+08-11-2017,18:35:49,rvw2,67,Complete,DateCoding,41,File has been completed.

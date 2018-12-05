@@ -1,0 +1,129 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+      xmlns:o="urn:schemas-microsoft-com:office:office"
+      xmlns:w="urn:schemas-microsoft-com:office:word" xmlns="http://www.w3.org/1999/html">
+<head>
+    <!--[if gte mso 9]>
+    <xml>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <meta http-equiv="Content-Type" content="text/html; charset=Windows-1252">
+    <title>Word Paragraph Document</title>
+    <style>
+        <!-- /* Style Definitions */
+        p.MsoHeader, li.MsoHeader, div.MsoHeader {
+            margin: 0in;
+            margin-top: .0001pt;
+            mso-pagination: widow-orphan;
+            tab-stops: center 3.0in right 6.0in;
+        }
+        p.MsoFooter, li.MsoFooter, div.MsoFooter {
+            margin: 0in 0in 1in 0in;
+            margin-bottom: .0001pt;
+            mso-pagination: widow-orphan;
+            tab-stops: center 3.0in right 6.0in;
+        }
+        .footer {
+            font-size: 9pt;
+        }
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in 1.0in 1.0in 1.0in;
+            mso-header-margin: 0.5in;
+            mso-header: h1;
+            mso-footer: f1;
+            mso-footer-margin: 0.5in;
+            mso-paper-source: 0;
+        }
+        div.Section1 {
+            page: Section1;
+        }
+        table#hrdftrtbl {
+            margin: 0in 0in 0in 9in;
+        }
+        -->
+    </style>
+    <style type="text/css" media="screen,print">
+        body {
+            font-family: "Times New Roman";
+            font-size: 12pt;
+        }
+        pageBreak {
+            clear: all;
+            page-break-before: always;
+            mso-special-character: line-break;
+        }
+    </style>
+</head>
+<body style='tab-interval:.5in'>
+<div class=Section1>
+        <div><strong>Patient Name</strong>: <span>1</span></div>
+    <div><strong>DOB</strong>: <span>11/11/2011</span></div>
+    <h4 align="center">Summarization</h4>
+    <table style="border-collapse: collapse;width: 100%;">
+        <col width="65%">
+        <col width="55%">
+        <tr style="border: 1px solid black">
+            <th style="border: 1px solid black">Date Range</th>
+            <td style="border: 1px solid black">Medical records provided for review a timeframe from  through </td>
+        </tr>
+        <tr style="border: 1px solid black">
+            <th style="border: 1px solid black">Body Parts</th>
+            <td style="border: 1px solid black"></td>
+        </tr>
+        <tr style="border: 1px solid black">
+            <th style="border: 1px solid black">Providers</th>
+            <td style="border: 1px solid black">ashok<br>disilva<br>raju</td>
+        </tr>
+        <tr style="border: 1px solid black">
+            <th style="border: 1px solid black">Facilities</th>
+            <td style="border: 1px solid black"></td>
+        </tr>
+        <tr style="border: 1px solid black">
+            <th style="border: 1px solid black">Diagnoses</th>
+            <td style="border: 1px solid black">            </td>
+        </tr>
+    </table>
+    <br style="page-break-before: always">
+    <div><strong>Patient Name</strong>: <span>1</span></div>
+    <div><strong>DOB</strong>: <span>11/11/2011</span></div>
+    <h4 align="center">Index</h4>
+    <table style="border-collapse: collapse;width: 100%;">
+        <thead>
+        <tr style="border: 1px solid black">
+            <th style="border: 1px solid black">Dates of Service</th>
+            <th style="border: 1px solid black">Body Parts</th>
+            <th style="border: 1px solid black">Providers</th>
+            <th style="border: 1px solid black">Facilities</th>
+            <th style="border: 1px solid black">Diagnoses</th>
+             <th style="border: 1px solid black">Category</th>
+             <th style="border: 1px solid black">Filename</th>
+            <th style="border: 1px solid black">Bates/References</th>
+            <th style="border: 1px solid black">Pages</th>
+           
+        </tr>
+        </thead>
+        <tbody>
+                    <tr style="border: 1px solid black">
+                <td style="border: 1px solid black">Undated</td>
+                <td style="border: 1px solid black"></td>
+                <td style="border: 1px solid black">ashok/&nbsp;disilva/&nbsp;raju</td>
+                <td style="border: 1px solid black"></td>
+                <!--<td style="border: 1px solid black"></td>-->
+                <td style="border: 1px solid black"></td>
+                  <td style="border: 1px solid black">Dr. Notes</td>
+                  <td style="border: 1px solid black">kalyan.pdf</td>
+                <td style="border: 1px solid black">kalyan.pdf</td>
+                <td style="border: 1px solid black">1,2,3,4</td>
+              
+
+            </tr>
+                    </tbody>
+    </table>
+</div>
+</body>
+</html>

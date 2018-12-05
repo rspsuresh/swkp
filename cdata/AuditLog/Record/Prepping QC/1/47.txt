@@ -1,0 +1,2 @@
+09-11-2017,10:43:18,qc1,68,Complete,Prepping QC,47,File has been completed.
+09-11-2017,11:44:22,qc1,68,Complete,Prepping QC,47,File has been completed.

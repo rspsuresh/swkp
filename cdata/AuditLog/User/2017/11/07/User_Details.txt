@@ -1,0 +1,22 @@
+07-11-2017,10:30:06,admin,1,Create,File,2,File has been completed.
+07-11-2017,10:47:14,admin,1,Create,File,4,File has been completed.
+07-11-2017,11:23:43,rvw,66,Create,FileIndex,7,File Index has been created.
+07-11-2017,11:52:47,rvw,66,Update,FileIndex,,File Update has been created.
+07-11-2017,11:52:52,rvw,66,Update,FileIndex,,File Update has been created.
+07-11-2017,11:53:06,rvw,66,Update,FileIndex,,File Update has been created.
+07-11-2017,12:37:09,rvw,66,Update,FileIndex,,File Update has been created.
+07-11-2017,12:37:12,rvw,66,Update,FileIndex,,File Update has been created.
+07-11-2017,12:37:47,rvw,66,Complete,Prepping,15,File has been completed.
+07-11-2017,15:09:24,rvw,66,Complete,DateCoding,16,File has been completed.
+07-11-2017,15:16:01,rvw,66,Complete,DateCoding,16,File has been completed.
+07-11-2017,16:24:07,admin,1,Create,File,4,File has been completed.
+07-11-2017,16:24:51,admin,1,Complete,Prepping,17,File has been completed.
+07-11-2017,16:25:17,admin,1,Complete,Prepping QC,17,File has been completed.
+07-11-2017,17:50:26,admin,1,Complete,DateCoding,18,File has been completed.
+07-11-2017,17:52:14,admin,1,Complete,DateCoding,14,File has been completed.
+07-11-2017,18:13:08,admin,1,Complete,Datecoding QC,14,File has been completed.
+07-11-2017,18:13:17,admin,1,Complete,Datecoding QC,18,File has been completed.
+07-11-2017,18:14:12,admin,1,Create,File,1,File has been completed.
+07-11-2017,18:16:35,rvw,66,Create,FileIndex,11,File Index has been created.
+07-11-2017,18:16:39,rvw,66,Update,FileIndex,,File Update has been created.
+07-11-2017,18:16:42,rvw,66,Complete,Prepping,21,File has been completed.

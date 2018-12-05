@@ -1,0 +1,12 @@
+06-11-2017,16:16:35,admin,1,Add,userdetails,65,Test clienthas been added.
+06-11-2017,16:36:23,admin,1,Add,userdetails,66,Test reviewerhas been added.
+06-11-2017,17:01:45,admin,1,Create,File,2,File has been completed.
+06-11-2017,17:03:11,admin,1,Create,File,1,File has been completed.
+06-11-2017,17:13:02,admin,1,Create,File,3,File has been completed.
+06-11-2017,17:14:04,admin,1,Reallocate,FilePage,7,File has been Reallocated.
+06-11-2017,17:15:49,admin,1,Create,File,3,File has been completed.
+06-11-2017,17:16:25,admin,1,Create,FileIndex,3,File Index has been created.
+06-11-2017,17:16:28,admin,1,Complete,Prepping,8,File has been completed.
+06-11-2017,17:18:26,admin,1,Complete,Prepping QC,8,File has been completed.
+06-11-2017,17:53:39,admin,1,Complete,DateCoding,9,File has been completed.
+06-11-2017,18:48:29,admin,1,Create,File,2,File has been completed.

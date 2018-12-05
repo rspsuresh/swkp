@@ -1,0 +1,44 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<style>
+.emphasis{
+color:green;
+}
+.cl{
+color:yellow;
+}
+.cr{
+	color:red;
+}
+</style>
+<script src="jquery.js"></script>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+</head>
+
+<body>
+<p class="cl">This is a paragraph</p>
+<ul class="cl">
+	<li>list1</li>
+	<ul>
+    	<li>list2</li>
+    </ul>
+</ul>
+<ul class="cl">
+    <li>list1</li>
+    <li>list2</li>
+    <li>list3</li>
+		<ul class="cl">
+	    	<li>list4</li>
+    	</ul>
+
+</ul>
+<script>
+$(function(){
+$('ul li').closest('ul').addClass('cr');	
+console.log(this);
+});
+</script>
+</body>
+</html>

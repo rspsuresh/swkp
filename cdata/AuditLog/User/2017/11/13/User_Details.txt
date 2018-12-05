@@ -1,0 +1,11 @@
+13-11-2017,10:59:35,qc2,69,Complete,Datecoding QC,64,File has been completed.
+13-11-2017,11:18:52,rvw,66,Create,FileIndex,43,File Index has been created.
+13-11-2017,11:18:52,rvw,66,Update,FileIndex,,File Update has been created.
+13-11-2017,11:18:55,rvw,66,Complete,Prepping,85,File has been completed.
+13-11-2017,11:22:38,ps,73,Complete,DateCoding,77,File has been completed.
+13-11-2017,11:47:48,admin,1,Create,File,18,File has been completed.
+13-11-2017,11:49:11,rvw,66,Complete,Prepping,88,File has been completed.
+13-11-2017,11:53:32,rvw,66,Complete,DateCoding,89,File has been completed.
+13-11-2017,12:12:11,admin,1,Create,File,19,File has been completed.
+13-11-2017,12:14:33,rvw,66,Complete,Prepping,91,File has been completed.
+13-11-2017,12:31:33,rvw,66,Complete,DateCoding,92,File has been completed.

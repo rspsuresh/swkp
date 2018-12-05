@@ -1,0 +1,4 @@
+03-11-2017,10:54:25,admin,1,Create,File,7,File has been completed.
+03-11-2017,11:01:24,admin,1,Create,FileIndex,13,File Index has been created.
+03-11-2017,11:01:32,admin,1,Complete,Prepping,17,File has been completed.
+03-11-2017,11:08:13,admin,1,Complete,Prepping QC,17,File has been completed.

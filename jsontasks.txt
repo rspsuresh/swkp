@@ -1,0 +1,12 @@
+implementing dyanamic form with form builder in nonmed split(change the complete view file of nonmedsplit) => 40 hours
+final output(template) through ftp will access the partition file 										   => 20 hours	
+final output(template) download with portal(admin login) will access the partition file					   => 20 hours
+multiple download of final output(template) with portal(admin login) will access the partition files	   => 4 hours
+on saving datecoding form (savedirectory action including newrecord action) will access the partition files=> 16 hours
+on datecoding completing will access the partition files												   => 4 hours
+on move nonmedical and move medical will access the partition files										   => 20 hours
+on removing partition will access the partition files													   => 4 hours 
+on checking duplicate will access the partition files													   => 16 hours
+on Datecoding QC complete will access the partition files												   => 4 hours
+on various conditions of process back will acces the partition files									   => 16 hours	
+in file record component																				   => 20 hours

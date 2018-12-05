@@ -1,0 +1,149 @@
+SN #:01 28/01/2017 Ashok
+------------------------------------
+Comment: Add new field
+Query: ALTER TABLE `project_p` ADD `p_process` VARCHAR(25) NOT NULL COMMENT 'QI -Index, QS -Split,QE-Editor' AFTER `p_category_ids`;
+
+SN #:02 31/01/2017 Suresh
+Comment: Change int into varchar
+Query:ALTER TABLE `user_details_ud` CHANGE `ud_cat_id` `ud_cat_id` VARCHAR(45) NOT NULL;
+
+ALTER TABLE `file_partition_fp` ADD `fp_job_id` BIGINT NOT NULL AFTER `fp_file_id`
+
+
+ALTER TABLE `project_p` ADD `p_downloadtype` CHAR(1) NOT NULL COMMENT 'F - FTP, S - SFTP' AFTER `p_process`, ADD `p_url` VARCHAR(200) NOT NULL AFTER `p_downloadtype`, ADD `p_port` SMALLINT(6) NOT NULL AFTER `p_url`, ADD `p_folderpath` VARCHAR(200) NULL AFTER `p_port`  ADD `p_username` VARCHAR(50) NOT NULL AFTER `p_folderpath`, ADD `p_password` VARCHAR(50) NOT NULL AFTER `p_username`;
+
+SN #:05 14/02/2017 Suresh
+Comment: Add total page number field
+ALTER TABLE `file_info_fi` ADD `fi_total_pages` INT NULL AFTER `fi_file_name`;
+
+
+SN #:06 21/02/2017 Suresh
+Comment: Add a job reason for quitting.
+ALTER TABLE `job_allocation_ja` ADD `ja_reason` TEXT NOT NULL AFTER `ja_last_modified`;
+
+SN #:07 01/03/2017 Lokesh
+Comment: Skip QC in file assignment.
+ALTER TABLE `job_allocation_ja` ADD `ja_skip_qc` INT(1) NOT NULL AFTER `ja_status`;
+
+SN #:08 02/03/2017 Suresh
+Comment: feedback coloumn.
+ALTER TABLE `job_allocation_ja` ADD `ja_qc_feedback` TEXT NULL AFTER `ja_reviewer_notes`;
+
+SN #:08 07/03/2017 Pravin
+ALTER TABLE  `client_details_cd` ADD  `cd_file_in_format` VARCHAR( 10 ) NOT NULL AFTER  `cd_folderpath` ,
+ADD  `cd_file_out_format` VARCHAR( 10 ) NOT NULL AFTER  `cd_file_in_format` ,
+ADD  `cd_price` DOUBLE NOT NULL AFTER  `cd_file_out_format`;
+
+ALTER TABLE  `client_details_cd` ADD  `cd_hours` INT( 3 ) NOT NULL AFTER  `cd_file_out_format`;
+
+
+SN #:09 21/04/2017 Ashok
+ALTER TABLE  `file_info_fi` ADD  `file_linecnt_fi` INT NOT NULL AFTER  `fi_file_completed_time`
+
+SN #:10 19/06/2017 Logesh
+ALTER TABLE `job_allocation_ja` ADD `ja_npartition_id` BIGINT(20) NOT NULL AFTER `ja_partition_id`;
+
+SN #:11 19/06/2017 Logesh
+ALTER TABLE `job_allocation_ja` ADD `ja_med_status` CHAR(1) NOT NULL DEFAULT 'C' AFTER `ja_tl_notes`;
+
+SN #:12 19/06/2017 Logesh
+ALTER TABLE `job_allocation_ja` ADD `ja_nonmed_status` CHAR(1) NOT NULL DEFAULT 'C' AFTER `ja_med_status`;
+
+SN #:13 19/06/2017 Logesh
+ALTER TABLE `job_allocation_ja` DROP `ja_indexer_id`, DROP `ja_splitter_id`;
+
+SN #:14 21/06/2017 Ashok
+ALTER TABLE  `file_info_fi` ADD  `fi_editorqc` CHAR( 1 ) NOT NULL DEFAULT  'N' AFTER  `file_linecnt_fi`
+ALTER TABLE  `file_info_fi` CHANGE  `fi_editorqc`  `fi_editorqc` INT( 1 ) NOT NULL DEFAULT  '0'
+ALTER TABLE  `file_info_fi` CHANGE  `fi_editorqc`  `fi_editorskipqc` INT( 1 ) NOT NULL DEFAULT  '0'
+
+SN #:14 13/7/2017
+   ALTER TABLE `project_p`  ADD `non_cat_ids` TEXT NOT NULL  AFTER `p_category_ids`;   
+ SN #16 18/7/2017 suresh     
+     ALTER TABLE `user_details_ud`  ADD `rand_key` TEXT NOT NULL  AFTER `rand_key`;
+ SN #16 25/7/2017 suresh   	 
+ALTER TABLE `project_p`  ADD `date_format` VARCHAR(35) NOT NULL  AFTER `p_downloadtype`;
+SN #16 18/7/2017 suresh     
+     ALTER TABLE `file_info_fi` ADD `fi_upload_status` CHAR(1) NOT NULL DEFAULT 'I' AFTER `file_linecnt_fi`;
+
+27/7/2017
+ALTER TABLE `project_p` ADD `skip_edit` CHAR(1) NOT NULL DEFAULT '0' AFTER `p_password`;
+
+29/7/2017	 
+ALTER TABLE `project_p` ADD `p_json` TEXT NOT NULL AFTER `skip_edit`;	 
+
+31/7/2017 Ashok
+ALTER TABLE  `file_info_fi` ADD  `fi_split_files` VARCHAR( 500 ) NOT NULL AFTER  `fi_editorskipqc`
+
+10/8/2017 Logesh
+ALTER TABLE `file_info_fi` ADD `fi_admin_lock` CHAR(1) NOT NULL DEFAULT 'O' COMMENT 'O = \"Opened\", L = \"Locked\"' AFTER `fi_editorskipqc`;
+
+21/8/2017 Logesh
+
+ALTER TABLE `file_info_fi` CHANGE `fi_admin_lock` `fi_admin_lock` CHAR(3) CHARACTER SET latin1 COLLATE latin1_swedish_ci NOT NULL DEFAULT 'O' COMMENT 'O = \"Opened\", L = \"Locked\"';
+
+ALTER TABLE `user_details_ud`  ADD `ud_ipin` VARCHAR(4) NOT NULL  AFTER `ud_password`;
+
+ALTER TABLE `file_info_fi` ADD `out_status` CHAR(1) NOT NULL DEFAULT 'P' AFTER `fi_split_files`;
+
+//suresh
+
+ALTER TABLE `file_info_fi`  ADD `fi_medinfo` VARCHAR(255) NOT NULL  AFTER `fi_flag`;
+
+05/10/2017 Logesh
+ALTER TABLE `project_p` ADD `p_prep` CHAR(1) NOT NULL DEFAULT '0' AFTER `p_json`;
+
+05/10/2017 Logesh
+ALTER TABLE `file_info_fi` ADD `fi_prep` CHAR(1) NOT NULL DEFAULT '0' AFTER `out_status`;
+
+
+
+9/10/2017 suresh
+
+ALTER TABLE `project_p`  ADD `template_id` INT(11) NOT NULL  AFTER `p_op_format`;
+
+ALTER TABLE `file_info_fi`  ADD `fi_template_id` INT(11) NOT NULL  AFTER `fi_file_name`;
+
+
+CREATE TABLE `templates` (
+  `id` int(11) NOT NULL,
+  `output` varchar(15) NOT NULL,
+  `parent_id` int(11) NOT NULL DEFAULT '0',
+  `t_name` varchar(255) NOT NULL,
+  `t_status` varchar(1) NOT NULL DEFAULT 'A'
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `templates`
+--
+
+INSERT INTO `templates` (`id`, `output`, `parent_id`, `t_name`, `t_status`) VALUES
+(1, 'DOCX', 0, 'WORDFORMAT', 'A'),
+(2, 'DOCX', 1, 'PSI', 'A'),
+(3, 'DOCX', 1, 'SOCAL', 'A'),
+(4, 'DOCX', 1, 'WORDPARAGRAPH', 'A'),
+(5, 'DOCX', 1, 'WORDCOMBINE', 'A'),
+(6, 'DOCX', 1, 'JWORDDOC', 'A'),
+(7, 'DOCX', 1, 'SWORDDOC', 'A'),
+(8, 'XLS', 0, 'WSXLS', 'A'),
+(9, 'XLS', 8, 'WOSXLS', 'A'),
+(10, 'XML', 0, 'NXML', 'A'),
+(11, 'PDF', 0, 'PDF', 'A'),
+(14, 'DOCX', 0, 'WORDFORMAT', 'A');
+
+
+
+24/10/2017 logesh
+ALTER TABLE `project_p` ADD `p_form_id` INT(11) NOT NULL AFTER `p_prep`;
+
+31/10/2017 logesh
+
+CREATE TABLE IF NOT EXISTS `forms` (
+  `id` bigint(50) NOT NULL AUTO_INCREMENT,
+  `name` varchar(250) NOT NULL,
+  `value` text NOT NULL,
+  `flag` char(1) NOT NULL DEFAULT 'A' COMMENT 'A=available;R=removed',
+  `created_date` datetime NOT NULL,
+  `last_modified` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=2 ;

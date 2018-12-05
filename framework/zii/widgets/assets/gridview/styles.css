@@ -1,0 +1,212 @@
+.grid-view-loading {
+    background: url(loading.gif) no-repeat;
+}
+.grid-view {
+    padding: 15px 0;
+}
+/*
+.grid-view table.items
+{
+        background: white;
+        border-collapse: collapse;
+        width: 100%;
+        border: 1px #D0E3EF solid;
+}
+
+.grid-view table.items th, .grid-view table.items td
+{
+        font-size: 0.9em;
+        border: 1px white solid;
+        padding: 0.3em;
+}
+
+.grid-view table.items th
+{
+        color: white;
+        background: url("bg.gif") repeat-x scroll left top white;
+        text-align: center;
+}
+
+.grid-view table.items th a
+{
+        color: #EEE;
+        font-weight: bold;
+        text-decoration: none;
+}
+
+.grid-view table.items th a:hover
+{
+        color: #FFF;
+}
+
+.grid-view table.items th a.asc
+{
+        background:url(up.gif) right center no-repeat;
+        padding-right: 10px;
+}
+
+.grid-view table.items th a.desc
+{
+        background:url(down.gif) right center no-repeat;
+        padding-right: 10px;
+}
+
+.grid-view table.items tr.even
+{
+        background: #F8F8F8;
+}
+
+.grid-view table.items tr.odd
+{
+        background: #E5F1F4;
+}
+
+.grid-view table.items tr.selected
+{
+        background: #BCE774;
+}
+
+.grid-view table.items tr:hover.selected
+{
+        background: #CCFF66;
+}
+
+.grid-view table.items tbody tr:hover
+{
+        background: #ECFBD4;
+} */
+
+.grid-view .link-column img {
+    border: 0;
+}
+.grid-view .button-column {
+    text-align: center;
+    width: 60px;
+}
+.grid-view .button-column img {
+    border: 0;
+}
+.grid-view .checkbox-column {
+    width: 15px;
+}
+.grid-view .summary {
+    margin: 0 0 5px 0;
+    text-align: right;
+}
+.grid-view .pager {
+    margin: 5px 0 0 0;
+    text-align: right;
+}
+.grid-view .empty {
+    font-style: italic;
+}
+.grid-view .filters input,
+.grid-view .filters select {
+    width: 225px; border-radius: 3px; padding: 6px; border: solid 1px #dcdcdc; transition: box-shadow 0.3s, border 0.3s;
+}
+.grid-view .filters select:focus { border: solid 1px #dcdcdc; box-shadow: 0 0 5px 1px #D6D4D4; }
+/* Extra style */
+
+.grid-view table.items td {
+/ / text-align: center;
+    border-bottom-color: rgba(0, 0, 0, 0.12);
+}
+.grid-view table.items tr {
+    border-bottom: 1px #444;
+}
+.grid-view table.items tr th {
+    text-align: center;
+    border-bottom-width: 2px;
+}
+.items-nowrap td,
+.items-nowrap th {
+    white-space: nowrap;
+}
+.grid-view table.items td {
+    border-bottom-color: #e0e0e0;
+}
+.grid-view table.items tfoot td,
+.grid-view table.items tfoot th {
+    border-top: 2px solid rgba(0, 0, 0, 0.12);
+    border-bottom: none;
+}
+.items-striped tbody tr:nth-of-type(odd) {
+    background: rgba(0, 0, 0, 0.085);
+}
+.items-hover tbody tr:hover {
+    background: rgba(0, 0, 0, 0.085);
+}
+.customTable {
+    display: block;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+.grid-view table.items {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    margin-bottom: 15px;
+    table-layout: auto; /*fixed;*/
+    /*    overflow: auto !important;*/
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+    /*    display: inline-block;*/
+}
+* + .grid-view table.items { margin-top: 15px }
+.grid-view table.items td, .grid-view table.items th { padding: 6px 6px 6px !important; border-bottom: 1px solid #ddd }
+.grid-view table.items th,
+.grid-view table.items th a {
+    text-align: left;
+    color: #727272;
+    font-weight: bold;
+}
+.grid-view table.items td { vertical-align: middle }
+.grid-view table.items thead th { vertical-align: bottom }
+.grid-view table.items caption, .grid-view table.items tfoot { font-size: 12px; font-style: italic }
+.grid-view table.items caption { text-align: left; color: #999 }
+.grid-view table.items tbody tr:hover { background: #f0f0f0 }
+.grid-view table.items { overflow: scroll; }
+.grid-view table.items thead tr.filters td input { width: 94%; border-radius: 3px; padding: 7px; border: solid 1px #dcdcdc; transition: box-shadow 0.3s, border 0.3s; }
+.grid-view table.items thead tr.filters td input:focus { border: solid 1px #dcdcdc; box-shadow: 0 0 5px 1px #D6D4D4; }
+.grid-view table.items thead tr th a {
+    position: relative;
+    padding: 0 32px 0 0;
+}
+.grid-view table.items thead tr th a:after {
+    position: absolute;
+    right: 0;
+    top: -3px;
+    content: '\e164';
+    display: block;
+    width: 18px;
+    height: 18px;
+    font-size: 18px;
+    font-family: "Material Icons";
+    color: #727272;
+}
+.grid-view table.items thead tr th a.asc:after {
+    position: absolute;
+    right: 0;
+    top: -3px;
+    content: '\E313';
+    display: block;
+    width: 18px;
+    height: 18px;
+    font-size: 18px;
+    font-family: "Material Icons";
+    color: #727272;
+}
+.grid-view table.items thead tr th a.desc:after {
+    position: absolute;
+    right: 0;
+    top: -3px;
+    content: '\E316';
+    display: block;
+    width: 18px;
+    height: 18px;
+    font-size: 18px;
+    font-family: "Material Icons";
+    color: #727272;
+}
+
+
